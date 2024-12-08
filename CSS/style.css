@@ -1,0 +1,1788 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 6000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(15, 90, 122);
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    opacity: 0.7;
+}
+.list{
+    list-style: none;
+    float: right;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+.list li{
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.search-bar{
+    position: relative;
+}
+.search-bar i{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.search-bar input{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/pink-perfume-bottle-table-placed-top-wooden-ai-generative-322428082.webp);
+    background-size: cover;
+    position: relative;
+}
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);   
+}
+.home-content{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.home-title{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+
+}
+.home-p{
+    color: rgb(235, 230, 203);
+    margin: 20px 0px;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.home-btn{
+    width: 145px;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    font-size: 23px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.home-btn2{
+    background-color: rgb(15, 90, 122);
+    color: white;
+    margin-left: 10px; 
+}
+.home-btn:hover{
+    opacity: 0.5;
+}
+.home2{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    z-index: 1000px;
+}
+.div2 h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.div3{
+    background-color: rgb(35, 123, 152);
+    width: 100px;
+    height: 3px;
+    margin-top: 200px; 
+    margin: auto;
+    
+}
+.card1 , .card2 , .card3{
+    width: 350px;
+    height: 200px;
+    border: solid 1px rgb(107, 140, 146);
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.card1-content::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: rgb(68, 100, 112);
+    transition: 1s;
+}
+.card1-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.card1 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.card1:hover h2{
+    color: rgb(10, 78, 94);
+}
+.card1 i{
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-left: 150px;
+    padding: 15px;
+}
+.card1:hover i{
+    color: rgb(4, 51, 62);
+}
+.card1 p{
+    text-transform: capitalize;
+    color: rgb(54, 52, 52);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    font-weight: bold;
+}
+.card1:hover p{
+    color: rgb(11, 11, 11);
+}
+.card1 a{
+    text-decoration: none;
+    color: rgb(15, 62, 82);
+    text-align: center;
+    display: block;
+}
+.card1:hover a{
+    color: rgb(4, 51, 62);
+}
+.card2-content::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: rgb(68, 100, 112);
+    transition: 1s;
+}
+.card2-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.card2 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.card2:hover h2{
+    color: rgb(10, 78, 94);
+}
+.card2 i{
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-left: 150px;
+    padding: 15px;
+}
+.card2:hover i{
+    color: rgb(4, 51, 62);
+}
+.card2 p{
+    text-transform: capitalize;
+    color: rgb(54, 52, 52);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card2:hover p{
+    color: rgb(11, 11, 11);
+}
+.card2 a{
+    text-decoration: none;
+    color: rgb(15, 62, 82);
+    text-align: center;
+    display: block;
+}
+.card2:hover a{
+    color: rgb(4, 51, 62);
+}
+.card3-content::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background-color: rgb(68, 100, 112);
+    transition: 1s;
+}
+.card3-content:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.card3 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.card3:hover h2{
+    color: rgb(10, 78, 94);
+}
+.card3 i{
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-left: 150px;
+    padding: 15px;
+}
+.card3:hover i{
+    color: rgb(4, 51, 62);
+}
+.card3 p{
+    text-transform: capitalize;
+    color: rgb(54, 52, 52);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card3:hover p{
+    color: rgb(11, 11, 11);
+}
+.card3 a{
+    text-decoration: none;
+    color: rgb(15, 62, 82);
+    text-align: center;
+    display: block;
+}
+.card3:hover a{
+    color: rgb(4, 51, 62);
+}
+.home3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(168, 194, 205);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.home3 h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.div4{
+    width: 80px;
+    height: 3px;
+    background-color:rgb(35, 123, 152) ;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.home3-content{
+    position: relative;
+    overflow: hidden;
+}
+.home3-img1{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 200px;
+    float: left;
+    background-image: url(../images/finding-bliss-shimmering-blue-discover-beauty-ar-32-blue-nail-polish-bottle_983420-305445.avif);
+    background-size: cover;
+    
+}
+.img1-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img1-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img1 h2{
+    text-align: center;
+    color: rgb(147, 143, 143);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img1 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img1 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home3-img2{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    float: left;
+    background-image: url(../images/MC_FF_blue_web_edited-e1694504635614.png.webp);
+    background-size: cover;
+    margin-left: 20px;
+}
+.img2-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img2-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img2 h2{
+    text-align: center;
+    color: rgb(187, 183, 183);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img2 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img2 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home3-img3{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 130px;
+    float: left;
+    background-image: url(../images/luxurious-perfume-bottle-with-blue-details-dark-background_7023-385493.avif);
+    background-size: cover;
+    margin-left: 20px;
+}
+.img3-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img3-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img3 h2{
+    text-align: center;
+    color: rgb(187, 183, 183);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img3 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img3 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home3-img4{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 200px;
+    background-image: url(../images/71nPA3qN1EL._AC_UF1000\,1000_QL80_.jpg);
+    background-size: cover;
+
+}
+.img4-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img4-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img4 h2{
+    text-align: center;
+    color: rgb(187, 183, 183);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img4 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img4 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home3-img5{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    float: left;
+    background-image: url(../images/360_F_825060395_hZVny8aexKGci8JNpoTK0VDrVOSs4uqV.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+.img5-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img5-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img5 h2{
+    text-align: center;
+    color: rgb(187, 183, 183);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img5 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img5 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home3-img6{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    float: left;
+    background-image: url(../images/360_F_952803272_qz9ouhPSyNYCHa6EVKi15y37J2udYqaz.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+.img6-content{
+    width: 300px;
+    height: 250px;
+    opacity: 0;
+}
+.img6-content:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.6);
+}
+.home3-img6 h2{
+    text-align: center;
+    color: rgb(187, 183, 183);
+    padding: 25px;
+    font-size: 40px;
+}
+.home3-img6 p{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.home3-img6 i{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: -105px;
+    font-size: 40px;
+    color: white;
+}
+.home4{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+.home4 h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.div5{
+    background-color: rgb(35, 123, 152);
+    width: 100px;
+    height: 3px;
+    margin: auto;
+}
+.home4-content{
+    position: relative;
+}
+.carda , .cardb , .cardc , .cardd , .carde , .cardf{
+    width: 300px;
+    height: 200px;
+    border: solid 1px rgb(35, 123, 152);
+    border-radius: 15px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 50px;
+    position: relative;
+}
+.carda i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.carda:hover i{
+    color: rgb(3, 62, 90);
+}
+.carda h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 25px;
+    text-align: left;
+}
+.carda:hover h2{
+    color: rgb(4, 58, 84);
+}
+.carda p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.carda:hover p{
+    color: black;
+}
+.carda::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(121, 178, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.carda:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.cardb i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cardb:hover i{
+    color: rgb(3, 62, 90);
+}
+.cardb h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 25px;
+    text-align: left;
+}
+.cardb:hover h2{
+    color: rgb(4, 58, 84);
+}
+.cardb p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.cardb:hover p{
+    color: black;
+}
+.cardb::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(154, 182, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardb:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.cardc i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cardc:hover i{
+    color: rgb(3, 62, 90);
+}
+.cardc h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: left;
+}
+.cardc:hover h2{
+    color: rgb(4, 58, 84);
+}
+.cardc p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.cardc:hover p{
+    color: black;
+}
+.cardc::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(154, 182, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardc:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.cardd i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cardd:hover i{
+    color: rgb(3, 62, 90);
+}
+.cardd h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: left;
+}
+.cardd:hover h2{
+    color: rgb(4, 58, 84);
+}
+.cardd p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.cardd:hover p{
+    color: black;
+}
+.cardd::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(154, 182, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardd:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.carde h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: left;
+}
+.carde:hover h2{
+    color: rgb(4, 58, 84);
+}
+.carde i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.carde:hover i{
+    color: rgb(3, 62, 90);
+}
+.carde p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.carde:hover p{
+    color: black;
+}
+.carde::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(154, 182, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.carde:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.cardf i{
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(80, 160, 197);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cardf:hover i{
+    color: rgb(3, 62, 90);
+}
+.cardf h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+    margin-left: 60px;
+    font-size: 20px;
+    text-align: left;
+}
+.cardf:hover h2{
+    color: rgb(4, 58, 84);
+}
+.cardf p{
+    text-transform: capitalize;
+    color: rgb(87, 81, 81);
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.cardf:hover p{
+    color: black;
+}
+.cardf::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(154, 182, 186);
+    transition: 1s;
+    border-radius: 15px;
+}
+.cardf:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.home5{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+.home5 img{
+    width: 350px;
+    height: 450px;
+    float:right;
+    margin-top: -40px;
+    margin-right: 200px;
+}
+
+.home5 h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div6{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(35, 123, 152);
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.home5 p{
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    color: rgb(163, 160, 160);
+    width: 600px;
+    font-size: 20px;
+}
+.pa1 i{ 
+    font-size: 15px;
+    color: rgb(3, 53, 75);
+    margin-left: 180px;
+}
+.pa1 p{
+    display: inline;
+    margin: auto;
+    color: rgb(99, 98, 98);
+}
+.pa2 i{ 
+    font-size: 15px;
+    color: rgb(3, 53, 75);
+    margin-left: 180px;
+}
+.pa2 p{
+    display: inline;
+    margin: auto;
+    color: rgb(99, 98, 98);
+}
+.pa3 i{ 
+    font-size: 15px;
+    color: rgb(3, 53, 75);
+    margin-left: 180px;
+}
+.pa3 p{
+    display: inline;
+    margin: auto;
+    color: rgb(99, 98, 98);
+}
+.pa4 i{ 
+    font-size: 15px;
+    color: rgb(3, 53, 75);
+    margin-left: 180px;
+}
+.pa4 p{
+    display: inline;
+    margin: auto;
+    color: rgb(99, 98, 98);
+}
+.home5-input1{
+    width: 15px;
+    height: 15px;
+    border: 0px solid white;
+    border-radius: 7px;
+    background-color:rgb(35, 123, 152) ;
+    margin-top: 10px;
+    margin-left: 1000px;
+}
+.home5-input2{
+    width: 15px;
+    height: 15px;
+    border: 0px solid white;
+    border-radius: 7px;
+    background-color:rgb(115, 117, 118) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home5-input3{
+    width: 15px;
+    height: 15px;
+    border: 0px solid white;
+    border-radius: 7px;
+    background-color:rgb(115, 117, 118) ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home5-input2:hover{
+    background-color: rgb(35, 123, 152);
+}
+.home5-input3:hover{
+    background-color: rgb(35, 123, 152);
+}
+.home6{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/DAV_CW_REB_22_CPV_CW_M_InStore_16-9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.home6-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);   
+}
+.home6-icon1 , .home6-icon2 , .home6-icon3 , .home6-icon4 {
+    margin-left: 200px;
+    margin-top: 100px;
+    float: left;
+}
+.home6-icon1 i{
+    font-size: 50px;
+    color:rgb(140, 98, 26) ;
+    margin-left: 25px ;
+}
+.home6-icon1 h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.home6-icon1 p{
+    font-size: 20px;
+    color: white;
+}
+.home6-icon2 i{
+    font-size: 50px;
+    color:rgb(140, 98, 26) ;
+    margin-left: 25px ;
+}
+.home6-icon2 h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+}
+.home6-icon2 p{
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+}
+.home6-icon3 i{
+    font-size: 50px;
+    color:rgb(140, 98, 26) ;
+    margin-left: 35px ;
+}
+.home6-icon3 h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.home6-icon3 p{
+    font-size: 20px;
+    color: white;
+}
+.home6-icon4 i{
+    font-size: 50px;
+    color:rgb(140, 98, 26) ;
+    margin-left: 55px ;
+}
+.home6-icon4 h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 60px;
+}
+.home6-icon4 p{
+    font-size: 20px;
+    color: white;
+}
+.home7{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    position: relative;
+}
+.title1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 8px;
+}
+.div7{
+    background-color: rgb(49, 103, 150);
+    width: 70px;
+    height: 3px;
+    margin-left: 680px;
+    margin-bottom: 50px;
+}
+.pareant{
+    overflow: auto;
+}
+.table1{
+    background-color: white;
+    border: solid 1px rgb(98, 128, 154);
+    border-radius: 15px;
+    width: 320px;
+    height: 350px;
+    float: left;
+    margin-left: 150px;
+    position: relative;
+}
+ 
+.table1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.table1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.table1-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+.table1:hover .table1-title{
+    color: rgb(5, 82, 149);
+}
+.table1-content{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(98, 128, 154);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.table1:hover .table1-content{
+   border-color:  rgb(5, 82, 149);
+}
+.p1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 15px;
+
+}
+.p2{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.text1{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: -20px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.text2 , .text3{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.table2{
+    background-color: white;
+    border: solid 1px rgb(98, 128, 154);
+    border-radius: 15px;
+    width: 320px;
+    height: 350px;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.table2:hover .table2-title{
+    color: rgb(5, 82, 149);
+}
+.table2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+}
+.table2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.table2-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+.table2-content{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(98, 128, 154);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.table2:hover .table2-content{
+    border-color:  rgb(5, 82, 149);
+ }
+.p1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+
+}
+.p2{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.text1{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: -20px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.text2 , .text3{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.table3{
+    background-color: white;
+    border: solid 1px rgb(98, 128, 154);
+    border-radius: 15px;
+    width: 320px;
+    height: 350px;
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.table3:hover .table3-title{
+    color: rgb(5, 82, 149);
+}
+.table3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.table3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.table3-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+.table3-content{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: solid 2px rgb(98, 128, 154);
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.table3:hover .table3-content{
+    border-color:  rgb(5, 82, 149);
+ }
+.p1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+
+}
+.p2{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    font-size: 15px;
+}
+.text1{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    margin-left: -20px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.text2 , .text3{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-left: 3px;
+    width: 200px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: rgb(245, 239, 239);
+    border: solid 2px rgb(68, 117, 159);
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.home8{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/ai-generated-luxury-perfume-bottle-scented-liquid-elegance-in-a-spray-generated-by-ai-free-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.home8-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);   
+}
+.home8-content{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.home8-img1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    float: left;
+    margin-right: 20px;
+}
+.home8-img1 h2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+.home8-img1 h3{
+    color: rgb(111, 73, 10);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+.home8-img1 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 500px;
+    margin-top: 20px;
+}
+.home8-img2{
+    margin-left: 600px;
+    margin-top: -150px;
+}
+.home8-img2 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    float: left;
+    margin-right: 20px;
+}
+.home8-img2 h2{
+    color: white;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin-top: 20px;
+}
+.home8-img2 h3{
+    color: rgb(111, 73, 10);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+.home8-img2 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    width: 500px;
+    margin-top: 25px;
+}
+.home9{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+.home9 h2{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.div9{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(62, 96, 99);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.team-contant{
+    overflow: auto;
+}
+.team-item{
+    float: left;
+    width: 30%;
+    background-color: rgb(35, 123, 152);
+    padding: 5px 5px;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.team-img{
+    width: 90%;
+    margin: auto;
+    margin-bottom: -80px;
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+}
+.team-icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(2, 1, 1, 0.7);
+    visibility: hidden;
+    opacity: 0;
+}
+.team-item:hover  .team-icons{
+    visibility: visible;
+    opacity: 0.5;
+    transition: 1s;
+
+}
+.team-icons a{
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(10, 190, 235);
+    color: white;
+    margin-left: auto;
+}
+.team-icons a i{
+    line-height: 45px;
+}
+.team-info-title{
+    text-align: center;
+    color: rgb(39, 38, 38);
+    font-size: 20PX;
+}
+.team-info-p{
+    color: rgb(65, 64, 64);
+    text-transform: uppercase;
+}
+.team-item:hover .team-info-title{
+    color: white;
+}
+.team-item:hover .team-info-p{
+    color: rgb(253, 253, 253);
+}
+.team-item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.home10{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    position: relative;
+}
+.home10 h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
+}
+.div10{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(62, 96, 99);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.pepole-carde1 , .pepole-carde2 , .pepole-carde3{
+    width: 350px;
+    height: 450px;
+    border: solid 1px rgb(65, 117, 143);
+    border-radius: 15px;
+    float: left;
+    margin-left: 100px;
+    position: relative;
+}
+.pepole-carde1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.pepole-carde1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.pepole-carde1 img{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.pepole-carde1-icons , .pepole-carde2-icons , .pepole-carde3-icons{
+    margin-left: 60px;
+}
+.pepole-carde1-icons i{
+    font-size: 17px;
+    color: rgb(77, 77, 242);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.pepole-carde1-icons span{
+    font-size: 20px;
+    color: black;
+    margin-left: 3px;
+    margin-top: 30px;   
+}
+.pepole-carde1:hover span{
+    color:rgb(41, 41, 203); 
+}
+.pepole-carde1 h2{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pepole-carde1:hover h2{
+    color: rgb(41, 41, 203);
+}
+.pepole-carde1 p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(92, 91, 91);
+}
+.pepole-carde1:hover p{
+    color: black;
+}
+.pepole-carde1 a{
+    color: rgb(29, 96, 110);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 140px;
+}
+.pepole-carde1:hover a{
+    color: rgb(41, 41, 203);
+}
+.pepole-carde2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.pepole-carde2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.pepole-carde2 img{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.pepole-carde2-icons i{
+    font-size: 17px;
+    color: rgb(77, 77, 242);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.pepole-carde2-icons span{
+    font-size: 20px;
+    color: black;
+    margin-left: 3px;
+    margin-top: 30px;   
+}
+.pepole-carde2:hover span{
+    color:rgb(41, 41, 203); 
+}
+.pepole-carde2 h2{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pepole-carde2:hover h2{
+    color: rgb(41, 41, 203);
+}
+.pepole-carde2 p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(92, 91, 91);
+}
+.pepole-carde2:hover p{
+    color: black;
+}
+.pepole-carde2 a{
+    color: rgb(29, 96, 110);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 140px;
+}
+.pepole-carde2:hover a{
+    color: rgb(41, 41, 203);
+}
+.pepole-carde3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    right: 0;
+    background-color: rgb(117, 136, 153) ;
+    transition: 1s;
+    border-radius: 15px;
+    padding-left: -10px;
+}
+.pepole-carde3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.pepole-carde3 img{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.pepole-carde3-icons i{
+    font-size: 17px;
+    color: rgb(77, 77, 242);
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.pepole-carde3-icons span{
+    font-size: 20px;
+    color: black;
+    margin-left: 3px;
+    margin-top: 30px;   
+}
+.pepole-carde3:hover span{
+    color:rgb(41, 41, 203); 
+}
+.pepole-carde3 h2{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.pepole-carde2:hover h2{
+    color: rgb(41, 41, 203);
+}
+.pepole-carde3 p{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(92, 91, 91);
+}
+.pepole-carde3:hover p{
+    color: black;
+}
+.pepole-carde3 a{
+    color: rgb(29, 96, 110);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 140px;
+}
+.pepole-carde3:hover a{
+    color: rgb(41, 41, 203);
+}
+.home11{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(162, 198, 212);
+    background-size: cover;
+}
+.home11 img{
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 550px;
+    border-radius: 15px;
+}
+.home11-icons{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.home11-icons .icon-1 , .icon-2 , .icon-3 , .icon-4 , .icon-5 , .icon-6 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(35, 107, 138);
+    border-radius: 25px;
+    float: left;
+    margin-left: 5px;
+}
+.home11-icons:hover .icon-1 {
+    background-color: rgb(22, 67, 81);
+}
+.icon-1 , .icon-2 , .icon-3 , .icon-4 , .icon-5 , .icon-6  {
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+.home11 p{
+    margin-top: 80px;
+    margin-left: 550px;
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+}
